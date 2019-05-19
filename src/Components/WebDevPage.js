@@ -7,7 +7,6 @@ const WebDevPage = () => {
 	      	<h1>Web Development</h1>
 	      	<div className="projects-section">
 
-
 	      		<div className="row">
 
 				  <div className="card col-lg-4 col-md-6">
