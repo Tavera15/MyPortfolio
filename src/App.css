@@ -33,7 +33,6 @@ hr{
 
 /*Home page*/
 
-
 .main-content{
   padding: 0;
   background-color: black;
@@ -59,16 +58,16 @@ hr{
 }
 
 
-/*Unreal Page*/
+/*Projects*/
 
-#Unreal h1{
+.project h1{
   color: yellow;
   font-size: 7rem;
   letter-spacing: 1rem;
   background-color: black;
   opacity: .8;
-  
 }
+
 
 .projects-section{
   border: 1px solid red;
@@ -76,6 +75,7 @@ hr{
   opacity: .8;
 }
 
+/*Cards*/
 
  .card{
   background-color: lightblue;
@@ -113,7 +113,7 @@ hr{
 }
 
 @media(max-width: 700px){
-  #Unreal h1{
+  .project h1{
     font-size: 4rem;
   }
 }

@@ -27,7 +27,7 @@ class TopBar extends Component {
 		              <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 		                <Link to='/MyPortfolio/Unreal' className="dropdown-item">Unreal Engine</Link>
 		                <Link to='/MyPortfolio/WebDevelopment' className="dropdown-item">Web Development</Link>
-		                <Link to='/MyPortfolio' className="dropdown-item">Business Cards</Link>
+		                <Link to='/MyPortfolio/BusinessCards' className="dropdown-item">Business Cards</Link>
 		              </div>
 		            </li>
 		            <li className="nav-item">
