@@ -1,33 +1,119 @@
+@font-face{
+  font-family: 'ResidentEvil';
+  src: url('./contents/re7.otf');
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+hr{
+    background-color: lightblue;
+    height:1px;
+    width:50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.section-container{
+  padding: 2rem 7rem 0;
+  text-align: center;
+  font-family: 'ResidentEvil';
+  
+}
+
+.my-nav{
+  border-bottom: #CEB964 solid 1px;
+}
+
+.my-nav h1{
+  font-family: 'ResidentEvil';
+  font-size: 6rem;
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+/*Home page*/
+
+
+.main-content{
+  padding: 0;
+  background-color: black;
+  opacity: .7;
+  color: white;
+  height: 100%;
+  border: 1px solid red;
+  letter-spacing: .5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-content h1{
+  font-size: 15rem;
+}
+
+.main-content h2{
+  font-size: 7rem;
+  padding-top: 4rem;
+}
+
+.main-content p{
+  font-size: 4rem;
+  color: #CEB964;
+}
+
+
+/*Unreal Page*/
+
+#Unreal h1{
+  color: yellow;
+  font-size: 7rem;
+  letter-spacing: 1rem;
+  background-color: black;
+  opacity: .8;
+  
+}
+
+.projects-section{
+  border: 1px solid red;
+  padding: 2rem;
+  opacity: .8;
+}
+
+
+ .card{
+  background-color: lightblue;
+  margin: .5rem 0;
+  padding: 0;
+  
+ }
+
+ .card-body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  letter-spacing: .2rem;
+  font-size: 4rem;
+ }
+
+
+@media (max-width: 1332px){
+  .section-container{
+    padding: 2rem 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-content h1{
+    font-size: 6rem;
+  }
+
+  .main-content h2{
+    font-size: 4rem;
+  }
+
+  .main-content p{
+    font-size: 3rem;
+  }
+
+}
+
+@media(max-width: 700px){
+  #Unreal h1{
+    font-size: 4rem;
   }
 }
