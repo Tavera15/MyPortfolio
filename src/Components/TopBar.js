@@ -20,7 +20,7 @@ class TopBar extends Component {
 		          
 		          <ul className="navbar-nav">
 		            <li className="nav-item active">
-		              <Link to="/MyPortfolio" className="nav-link">Home</Link>
+		              <Link to="/MyPortfolio/Home" className="nav-link">Home</Link>
 		            </li>
 		            <li className="nav-item dropdown">
 		              <Link to='/MyPortfolio' className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Projects</Link>

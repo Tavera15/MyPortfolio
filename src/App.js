@@ -18,8 +18,8 @@ class App extends Component{
           <TopBar />
 
           <Route exact path="/MyPortfolio" component={Home} />
-          <Route path="/MyPortfolio/Unreal" component={UnrealPage} />
-          <Route path="/MyPortfolio/WebDevelopment" component={WebDevPage} />
+          <Route exact path="/MyPortfolio/Unreal" component={UnrealPage} />
+          <Route exact path="/MyPortfolio/WebDevelopment" component={WebDevPage} />
         
         </div>
       </Router>
