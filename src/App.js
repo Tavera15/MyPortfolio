@@ -22,6 +22,8 @@ class App extends Component{
           <Route exact path="/MyPortfolio/Unreal" component={UnrealPage} />
           <Route exact path="/MyPortfolio/WebDevelopment" component={WebDevPage} />
           <Route exact path="/MyPortfolio/BusinessCards" component={BusCardsPage} />
+          <Route exact path="/MyPortfolio/Unreal/test" component={UnrealPage} />
+          <Route exact path="/MyPortfolio/Unreal/test2" component={UnrealPage} />
 
         </div>
       </Router>

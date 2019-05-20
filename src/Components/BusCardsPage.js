@@ -12,7 +12,7 @@ const BusCardsPage = () => {
 					  <div className="card-body">
 					      <h3 className="card-title">Joaquin Ramirez Pool Service</h3>
 			    	  </div>
-				  </div>
+				 </div>
 
 	      	</div>
 	      </div>
