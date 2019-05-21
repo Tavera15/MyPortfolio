@@ -8,12 +8,14 @@ class UnrealPage extends Component {
 		this.state = {
 			images: [
 				require('../contents/First Level/prison10.jpg'),
+				require('../contents/LMPinball/LM1.jpg')
 			]
 		};
-		this.test = this.test.bind(this);
+		this.getPrison = this.getPrison.bind(this);
+		this.getLMPinball = this.getLMPinball.bind(this);
 	}
 
-	test(e) {
+	getPrison(e) {
 		$(".carousel").carousel(0);
 
 		this.setState({
@@ -27,7 +29,23 @@ class UnrealPage extends Component {
 				require('../contents/First Level/prison7.jpg'),
 				require('../contents/First Level/prison8.jpg'),
 				require('../contents/First Level/prison9.jpg'),
-				require('../contents/First Level/prison10.jpg'),
+				require('../contents/First Level/prison10.jpg')
+			]
+		});
+	}
+
+	getLMPinball(e){
+		$(".carousel").carousel(0);
+
+		this.setState({
+			images: [
+				require('../contents/LMPinball/LM1.jpg'),
+				require('../contents/LMPinball/LM2.jpg'),
+				require('../contents/LMPinball/LM3.jpg'),
+				require('../contents/LMPinball/LM4.jpg'),
+				require('../contents/LMPinball/LM5.jpg'),
+				require('../contents/LMPinball/LM6.jpg'),
+				require('../contents/LMPinball/LM7.jpg')
 			]
 		});
 	}
@@ -72,7 +90,16 @@ class UnrealPage extends Component {
 						  <div className="card-body">
 						      <h3 className="card-title">First Level - Prison</h3>
 						      <h5 className="card-text">First level built as a major project for college.</h5>
-						      <button className="btn btn-primary btn-lg" onClick={this.test} href="#" target="_blank" rel="noopener noreferrer">View Pictures</button>
+						      <button className="btn btn-primary btn-lg" onClick={this.getPrison}>View Pictures</button>
+				    	  </div>
+					  </div>
+					  <div className="card col-lg-4 col-md-6">
+						<img src={require('../contents/LMPinball/LM1.jpg')} className="card-img-top" alt="JRlogo"/>				    
+						  <div className="card-body">
+						      <h3 className="card-title">Luigi's Mansion Pinball</h3>
+						      <h5 className="card-text">First full, playable, and unpublished, game using version 4.21.3.</h5>
+						      <button className="btn btn-primary btn-lg" onClick={this.getLMPinball}>View Pictures</button>
+      					      <a className="btn btn-primary btn-lg" href="https://github.com/Tavera15/LuigiPinball" target="_blank" rel="noopener noreferrer">Github</a>
 				    	  </div>
 					  </div>
 					</div>

@@ -31,6 +31,10 @@ hr{
   text-align: center;
 }
 
+.navbar p{
+  margin: 0;
+}
+
 /*Home page*/
 
 .main-content{
@@ -57,7 +61,6 @@ hr{
   color: #CEB964;
 }
 
-
 /*Projects*/
 
 .project h1{
@@ -81,7 +84,10 @@ hr{
   background-color: lightblue;
   margin: .5rem 0;
   padding: 0;
-  
+ }
+
+ .card img{
+  height: 20rem;
  }
 
  .card-body{
@@ -90,6 +96,7 @@ hr{
   color: white;
   letter-spacing: .2rem;
   font-size: 4rem;
+  border-top: 4px solid red;
  }
 
 /*Unreal Page*/
@@ -109,6 +116,9 @@ hr{
   border: 1px solid white;
 }
 
+#Unreal .card-body a{
+  margin: 0 1rem;
+}
 
 @media (max-width: 1332px){
   .section-container{
@@ -136,5 +146,13 @@ hr{
 
   .carousel img{
     height: 250px;
+  }
+
+  .card img{
+    height: 200px;
+  }
+
+  .about-container{
+    margin: 0;
   }
 }

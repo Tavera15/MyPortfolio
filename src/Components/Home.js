@@ -10,7 +10,7 @@ const Home = () => {
 	        <h2>I Can Do Things</h2>
 	        
 	        <div className="skills">
-	          <p>C++ | C# | Unreal Engine 4 | Unity | Web Deveopment | Business Cards</p>
+	          <p>C++ | C# | Unreal Engine 4 | Unity | Web Development | Business Cards</p>
 	        </div>
 	      </div>
 
