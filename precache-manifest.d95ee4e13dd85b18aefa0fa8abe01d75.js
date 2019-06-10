@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60efd8f4a9e430733d36d0f4f5e4103a",
+    "revision": "e70bb0dd2163e3926b5b8be85ed5d1c4",
     "url": "/MyPortfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "3d8edadd76570b6a6e64",
+    "revision": "816d59516258d27e0b6e",
     "url": "/MyPortfolio/static/css/main.fa9ed36b.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/js/2.257b5091.chunk.js"
   },
   {
-    "revision": "3d8edadd76570b6a6e64",
-    "url": "/MyPortfolio/static/js/main.08092231.chunk.js"
+    "revision": "816d59516258d27e0b6e",
+    "url": "/MyPortfolio/static/js/main.6c6b0e2a.chunk.js"
   },
   {
     "revision": "41ef2c5e8e68d7a2a057",
     "url": "/MyPortfolio/static/js/runtime~main.ccce04bf.js"
+  },
+  {
+    "revision": "9df01515a94f8dc847ecf1fcdc231e06",
+    "url": "/MyPortfolio/static/media/Hilario Card.9df01515.png"
   },
   {
     "revision": "64b919a4b18b6f9262f30ac1f7d46e00",
