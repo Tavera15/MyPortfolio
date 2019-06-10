@@ -7,13 +7,20 @@ const BusCardsPage = () => {
 	      	<h1>Business Cards</h1>
 	      	<div className="projects-section">
 
-				<div className="card col-lg-4 col-md-6">
-					<img src={require('../contents/JRCard.png')} className="card-img-top" alt="JRlogo"/>				    
-					  <div className="card-body">
-					      <h3 className="card-title">Joaquin Ramirez Pool Service</h3>
-			    	  </div>
+	      		<div className="row">
+					<div className="card col-lg-4 col-md-6">
+						<img src={require('../contents/JRCard.png')} className="card-img-top" alt="JRlogo"/>				    
+						  <div className="card-body">
+						      <h3 className="card-title">Joaquin Ramirez Pool Service</h3>
+				    	  </div>
+					 </div>
+					 <div className="card col-lg-4 col-md-6">
+						<img src={require('../contents/Hilario Card.png')} className="card-img-top" alt="HRlogo"/>				    
+						  <div className="card-body">
+						      <h3 className="card-title">Hilario Ramirez Pool Service</h3>
+				    	  </div>
+					 </div>
 				 </div>
-
 	      	</div>
 	      </div>
 
