@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c55b038bc290687de18387634c19bf25",
+    "revision": "eb9c21ca751d5eaeb5c70674c42daa14",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "3bf6d3aa1e5f390c9f8c",
+    "revision": "818266cb751566e2d968",
     "url": "/MyPortfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "df80420b47f57fb7502f",
-    "url": "/MyPortfolio/static/css/main.fa9ed36b.chunk.css"
+    "revision": "515f7cca326b1619d248",
+    "url": "/MyPortfolio/static/css/main.94865244.chunk.css"
   },
   {
-    "revision": "3bf6d3aa1e5f390c9f8c",
-    "url": "/MyPortfolio/static/js/2.b32c3220.chunk.js"
+    "revision": "818266cb751566e2d968",
+    "url": "/MyPortfolio/static/js/2.38211a59.chunk.js"
   },
   {
-    "revision": "df80420b47f57fb7502f",
-    "url": "/MyPortfolio/static/js/main.d1cca9d8.chunk.js"
+    "revision": "515f7cca326b1619d248",
+    "url": "/MyPortfolio/static/js/main.162bf5ca.chunk.js"
   },
   {
     "revision": "41ef2c5e8e68d7a2a057",
@@ -68,16 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/AM9.636381fc.jpg"
   },
   {
-    "revision": "9df01515a94f8dc847ecf1fcdc231e06",
-    "url": "/MyPortfolio/static/media/Hilario Card.9df01515.png"
-  },
-  {
     "revision": "64b919a4b18b6f9262f30ac1f7d46e00",
     "url": "/MyPortfolio/static/media/Invoice Gen.64b919a4.png"
-  },
-  {
-    "revision": "7713e6931a03573cfb8dcc16bcd9eac7",
-    "url": "/MyPortfolio/static/media/JRCard.7713e693.png"
   },
   {
     "revision": "4ae067f25725e900cc3b7b41c89a6225",
@@ -108,16 +100,104 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/LM7.838b8c21.jpg"
   },
   {
+    "revision": "a3f8e9635d1a9b4ddac251dc7138f018",
+    "url": "/MyPortfolio/static/media/RPG_Racers01.a3f8e963.jpg"
+  },
+  {
+    "revision": "ec4dc654f1f87f8b90604df932160a83",
+    "url": "/MyPortfolio/static/media/RPG_Racers02.ec4dc654.jpg"
+  },
+  {
+    "revision": "41ecadc35cf6c92f2f22ecd60e4549ae",
+    "url": "/MyPortfolio/static/media/RPG_Racers03.41ecadc3.jpg"
+  },
+  {
+    "revision": "30cda2657579a761bbbf33f56ef8d7b5",
+    "url": "/MyPortfolio/static/media/RPG_Racers04.30cda265.jpg"
+  },
+  {
+    "revision": "05cd3a14ca9eeb5f851688397cdfa2db",
+    "url": "/MyPortfolio/static/media/RPG_Racers05.05cd3a14.jpg"
+  },
+  {
+    "revision": "352649b782c9ea0ee20e025e6ef6f108",
+    "url": "/MyPortfolio/static/media/RPG_Racers06.352649b7.jpg"
+  },
+  {
+    "revision": "75e27054df9384b911c95a154f2ecdbc",
+    "url": "/MyPortfolio/static/media/RPG_Racers07.75e27054.jpg"
+  },
+  {
+    "revision": "ed07980687473c97b18510eeb9e47d3a",
+    "url": "/MyPortfolio/static/media/RPG_Racers08.ed079806.jpg"
+  },
+  {
+    "revision": "cae5b5985c237634177750473d4a10a7",
+    "url": "/MyPortfolio/static/media/RPG_Racers09.cae5b598.jpg"
+  },
+  {
+    "revision": "8f116a632f69c64ccba9e1d75c47d719",
+    "url": "/MyPortfolio/static/media/RPG_Racers10.8f116a63.jpg"
+  },
+  {
+    "revision": "c10fc11912f46b6e70b57fc03e3f4aa3",
+    "url": "/MyPortfolio/static/media/RPG_Racers11.c10fc119.jpg"
+  },
+  {
+    "revision": "119c44bf4a731cd52291ca7f974d20f8",
+    "url": "/MyPortfolio/static/media/RPG_Racers12.119c44bf.jpg"
+  },
+  {
+    "revision": "60f91e45eb98173e93b4182c649b8c21",
+    "url": "/MyPortfolio/static/media/RPG_Racers13.60f91e45.jpg"
+  },
+  {
+    "revision": "ec3c4c22028612011216f8625cf63e4a",
+    "url": "/MyPortfolio/static/media/RPG_Racers14.ec3c4c22.jpg"
+  },
+  {
+    "revision": "829d5d8f3954291d2305121417c170a5",
+    "url": "/MyPortfolio/static/media/RPG_Racers15.829d5d8f.jpg"
+  },
+  {
+    "revision": "5b0cef3020a5004efb322507709db64c",
+    "url": "/MyPortfolio/static/media/RPG_Racers16.5b0cef30.jpg"
+  },
+  {
+    "revision": "390c844b8e083ba9cbc2b554cea616d1",
+    "url": "/MyPortfolio/static/media/RPG_Racers17.390c844b.jpg"
+  },
+  {
+    "revision": "8f5f43d2435e78b040f5e270265c57b1",
+    "url": "/MyPortfolio/static/media/RPG_Racers18.8f5f43d2.jpg"
+  },
+  {
+    "revision": "5e143852f57854cbe6ab0f0e03b3053e",
+    "url": "/MyPortfolio/static/media/RS1.5e143852.jpg"
+  },
+  {
+    "revision": "23f7c6949ca7ab815c351059dd6d789f",
+    "url": "/MyPortfolio/static/media/RS2.23f7c694.jpg"
+  },
+  {
+    "revision": "bde9dccff3a8857b66611fa0d970e327",
+    "url": "/MyPortfolio/static/media/RS3.bde9dccf.jpg"
+  },
+  {
+    "revision": "4e7d37294a52d287c84f0690f93024f0",
+    "url": "/MyPortfolio/static/media/RS4.4e7d3729.jpg"
+  },
+  {
+    "revision": "3130b254721c745066779b4aeaaeddd6",
+    "url": "/MyPortfolio/static/media/RS5.3130b254.jpg"
+  },
+  {
     "revision": "bd8323145c5283b24aed26d5e4718f27",
     "url": "/MyPortfolio/static/media/boggle.bd832314.png"
   },
   {
     "revision": "827ccf0c29e7b23fd1b5e4f204405213",
     "url": "/MyPortfolio/static/media/logo.827ccf0c.png"
-  },
-  {
-    "revision": "f34d3f6f6f7cd18883ef25f4ed027c2e",
-    "url": "/MyPortfolio/static/media/mainBG.f34d3f6f.jpg"
   },
   {
     "revision": "4f9be125acd7174d712b470f3a0f7874",
@@ -130,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d68bf51934c04109fcf2bdfcaa20d3c5",
     "url": "/MyPortfolio/static/media/prison10.d68bf519.jpg"
+  },
+  {
+    "revision": "f34d3f6f6f7cd18883ef25f4ed027c2e",
+    "url": "/MyPortfolio/static/media/prison11.f34d3f6f.jpg"
   },
   {
     "revision": "5144a83b7a73ad653b255e129abaa6b8",
