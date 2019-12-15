@@ -19,7 +19,7 @@ const WebDevPage = () => {
 					<img src={require('../contents/portfolio.jpg')} className="card-img-top" alt="JRlogo"/>				    
 					  <div className="card-body">
 					      <h3 className="card-title">My Porfolio</h3>
-					      <h5 className="card-text">Sure, adding my portfolio to my portfolio as it showcases ReactJS with Bootstrap.</h5>
+					      <h5 className="card-text">Code to this portfolio. Used ReactJS and Bootstrap.</h5>
 					      <a className="btn btn-primary btn-lg" href="https://github.com/Tavera15/MyPortfolio" target="_blank" rel="noopener noreferrer">Github</a>
 			    	  </div>
 				  </div>

@@ -7,10 +7,10 @@ const Home = () => {
 	      <div className="main-content">
 	        <h1>Welcome to My Party</h1>
 	        <hr />
-	        <h2>I Can Do Things</h2>
+	        <h2>I Can Code Things</h2>
 	        
 	        <div className="skills">
-	          <p>C++ | C# | Unreal Engine 4 | Unity | Web Development | Business Cards</p>
+	          <p>C++ | C# | Unreal Engine 4 | Unity | Web Development</p>
 	        </div>
 	      </div>
 

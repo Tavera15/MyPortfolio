@@ -9,12 +9,42 @@ class UnrealPage extends Component {
 			images: [
 				require('../contents/First Level/prison10.jpg'),
 				require('../contents/LMPinball/LM1.jpg'),
-				require('../contents/Airport Museum/AM1.jpg')
+				require('../contents/Airport Museum/AM1.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers10.jpg')
 			]
 		};
 		this.getPrison = this.getPrison.bind(this);
 		this.getLMPinball = this.getLMPinball.bind(this);
 		this.getAM = this.getAM.bind(this);
+		this.getRPGRacing = this.getRPGRacing.bind(this);
+	}
+
+	getRPGRacing(e) {
+		$(".carousel").carousel(0);
+
+		this.setState({
+			images: [
+				require('../contents/RPG_Racers/RPG_Racers10.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers17.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers13.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers09.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers08.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers11.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers15.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers12.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers16.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers14.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers02.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers03.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers04.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers05.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers07.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers18.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers17.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers06.jpg'),
+				require('../contents/RPG_Racers/RPG_Racers01.jpg'),
+			]
+		});
 	}
 
 	getPrison(e) {
@@ -31,7 +61,8 @@ class UnrealPage extends Component {
 				require('../contents/First Level/prison7.jpg'),
 				require('../contents/First Level/prison8.jpg'),
 				require('../contents/First Level/prison9.jpg'),
-				require('../contents/First Level/prison10.jpg')
+				require('../contents/First Level/prison10.jpg'),
+				require('../contents/First Level/prison11.jpg')
 			]
 		});
 	}
@@ -107,6 +138,7 @@ class UnrealPage extends Component {
 			        </div>
 
 			        <div className="row">
+
 					  <div className="card col-lg-4 col-md-6">
 						<img src={require('../contents/First Level/prison10.jpg')} className="card-img-top" alt="Prison"/>				    
 						  <div className="card-body">
@@ -115,6 +147,7 @@ class UnrealPage extends Component {
 						      <button className="btn btn-primary btn-lg" onClick={this.getPrison}>View Pictures</button>
 				    	  </div>
 					  </div>
+
 					  <div className="card col-lg-4 col-md-6">
 						<img src={require('../contents/LMPinball/LM1.jpg')} className="card-img-top" alt="Luigi"/>				    
 						  <div className="card-body">
@@ -129,9 +162,21 @@ class UnrealPage extends Component {
 						<img src={require('../contents/Airport Museum/AM1.jpg')} className="card-img-top" alt="Aiport"/>				    
 						  <div className="card-body">
 						      <h3 className="card-title">Airport Museum Survival</h3>
-						      <h5 className="card-text">Larger full, playable, and unpublished, game using version 4.21.3, with basic AI. The main focus was on coding components.</h5>
+						      <h5 className="card-text">Larger full, playable, and unpublished, game using version 4.21.3, with basic AI. The main focus was learning to code components.</h5>
 						      <button className="btn btn-primary btn-lg" onClick={this.getAM}>View Pictures</button>
       					      <a className="btn btn-primary btn-lg" href="https://github.com/Tavera15/SH_Airport" target="_blank" rel="noopener noreferrer">Github</a>
+				    	  </div>
+					  </div>
+					</div>
+
+					  <div className="row">
+					  <div className="card col-lg-4 col-md-6">
+						<img src={require('../contents/RPG_Racers/RPG_Racers10.jpg')} className="card-img-top" alt="RPG_Racers"/>				    
+						  <div className="card-body">
+						      <h3 className="card-title">Racers Pro Grand-Prix</h3>
+						      <h5 className="card-text">Racing game with an RPG element. Project uses vehicle AI, multiple components - such as Inventory, Player Stats, Movement/Driving - HUDs, and custom weapon and stat items. Made in version 4.21.3</h5>
+						      <button className="btn btn-primary btn-lg" onClick={this.getRPGRacing}>View Pictures</button>
+						      <a className="btn btn-primary btn-lg" href="https://github.com/Tavera15/RPG_Racers" target="_blank" rel="noopener noreferrer">Github</a>
 				    	  </div>
 					  </div>
 
