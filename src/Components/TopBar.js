@@ -25,10 +25,13 @@ class TopBar extends Component {
 		            <li className="nav-item dropdown">
 		              <Link to='/MyPortfolio' className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Projects</Link>
 		              <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-		                <Link to='/MyPortfolio/Unreal' className="dropdown-item">Unreal Engine</Link>
-		                <Link to='/MyPortfolio/WebDevelopment' className="dropdown-item">Web Development</Link>
+		                
+		                <Link to='/MyPortfolio/CPlusPlus' className='dropdown-item'>C++</Link>
 		                <Link to='/MyPortfolio/CSharp' className='dropdown-item'>C#</Link>
+		                <Link to='/MyPortfolio/Unreal' className="dropdown-item">Unreal Engine</Link>
 		                <Link to='/MyPortfolio/Unity' className='dropdown-item'>Unity</Link>
+						<Link to='/MyPortfolio/WebDevelopment' className="dropdown-item">Web Development</Link>
+
 		              </div>
 		            </li>
 		            <li className="nav-item active">

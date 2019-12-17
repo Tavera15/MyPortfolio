@@ -8,6 +8,7 @@ class Unity extends Component {
 		this.state = {
 			images: [
 				require('../contents/RunningShip/RS1.jpg'),
+				require('../contents/Unity/SurvivalShooter.jpg'),
 			]
 		};
 		this.getRunShip = this.getRunShip.bind(this);
@@ -26,7 +27,6 @@ class Unity extends Component {
 			]
 		});
 	}
-
 
 	render() {
 
@@ -63,7 +63,18 @@ class Unity extends Component {
 			        </div>
 
 			        <div className="row">
+
 					  <div className="card col-lg-4 col-md-6">
+						<img src={require('../contents/Unity/SurvivalShooter.jpg')} className="card-img-top" alt="SSG"/>				    
+						  <div className="card-body">
+						      <h3 className="card-title">Survival Shooter</h3>
+						      <h5 className="card-text">A 5-6 week assignment where each week was focused on coding animation triggers, multiplayer gameplay, solution paths, "game feel", etc.</h5>
+      					      <a className="btn btn-primary btn-lg" href="https://github.com/Tavera15/SurvivalShooter" target="_blank" rel="noopener noreferrer">Github</a>
+				    	      <a className="btn btn-primary btn-lg" href="https://drive.google.com/drive/folders/1j859Z2gJldowMgcLe1T0qKjY0RMcHxMp?usp=sharing" target="_blank" rel="noopener noreferrer">More Code</a>
+				    	  </div>
+					  </div>
+
+  					  <div className="card col-lg-4 col-md-6">
 						<img src={require('../contents/RunningShip/RS1.jpg')} className="card-img-top" alt="RS1"/>				    
 						  <div className="card-body">
 						      <h3 className="card-title">Running Ship</h3>
@@ -72,8 +83,6 @@ class Unity extends Component {
       					      <a className="btn btn-primary btn-lg" href="https://github.com/Tavera15/RunningShip" target="_blank" rel="noopener noreferrer">Github</a>
 				    	  </div>
 					  </div>
-
-
 
 					</div>
 		      	</div>
