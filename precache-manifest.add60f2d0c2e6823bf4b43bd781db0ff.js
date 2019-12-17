@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb9c21ca751d5eaeb5c70674c42daa14",
+    "revision": "b7aafa93a749c791da50d159b1e3421b",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "818266cb751566e2d968",
+    "revision": "ee64dd5cf59725d17c55",
     "url": "/MyPortfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "515f7cca326b1619d248",
+    "revision": "6d0f52494c00c0f01649",
     "url": "/MyPortfolio/static/css/main.94865244.chunk.css"
   },
   {
-    "revision": "818266cb751566e2d968",
-    "url": "/MyPortfolio/static/js/2.38211a59.chunk.js"
+    "revision": "ee64dd5cf59725d17c55",
+    "url": "/MyPortfolio/static/js/2.eefd4ad0.chunk.js"
   },
   {
-    "revision": "515f7cca326b1619d248",
-    "url": "/MyPortfolio/static/js/main.162bf5ca.chunk.js"
+    "revision": "6d0f52494c00c0f01649",
+    "url": "/MyPortfolio/static/js/main.53865c40.chunk.js"
   },
   {
     "revision": "41ef2c5e8e68d7a2a057",
@@ -190,6 +190,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3130b254721c745066779b4aeaaeddd6",
     "url": "/MyPortfolio/static/media/RS5.3130b254.jpg"
+  },
+  {
+    "revision": "0970f974335460c68ced8fae57ef063e",
+    "url": "/MyPortfolio/static/media/Ransom.0970f974.png"
+  },
+  {
+    "revision": "72b22f25756a4e51ba1c0c9ade6f2e06",
+    "url": "/MyPortfolio/static/media/SurvivalShooter.72b22f25.jpg"
+  },
+  {
+    "revision": "d65100e9f8a658c1cd2f0637120cd385",
+    "url": "/MyPortfolio/static/media/TTT.d65100e9.png"
+  },
+  {
+    "revision": "89466b11b08dc328a05708bbde8a8e4e",
+    "url": "/MyPortfolio/static/media/Tree.89466b11.gif"
+  },
+  {
+    "revision": "7e47a4e03f9f8df810c653037c968ece",
+    "url": "/MyPortfolio/static/media/WordCloud.7e47a4e0.png"
   },
   {
     "revision": "bd8323145c5283b24aed26d5e4718f27",
