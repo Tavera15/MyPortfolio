@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7aafa93a749c791da50d159b1e3421b",
+    "revision": "a7922fdb9757e8e1570805c68d22e880",
     "url": "/MyPortfolio/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "6d0f52494c00c0f01649",
-    "url": "/MyPortfolio/static/css/main.94865244.chunk.css"
+    "revision": "8659e01cc8d5f2e93e1a",
+    "url": "/MyPortfolio/static/css/main.cb4471c1.chunk.css"
   },
   {
     "revision": "ee64dd5cf59725d17c55",
     "url": "/MyPortfolio/static/js/2.eefd4ad0.chunk.js"
   },
   {
-    "revision": "6d0f52494c00c0f01649",
-    "url": "/MyPortfolio/static/js/main.53865c40.chunk.js"
+    "revision": "8659e01cc8d5f2e93e1a",
+    "url": "/MyPortfolio/static/js/main.2aa17d71.chunk.js"
   },
   {
     "revision": "41ef2c5e8e68d7a2a057",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "838b8c21bfc527a026a192476041bf42",
     "url": "/MyPortfolio/static/media/LM7.838b8c21.jpg"
+  },
+  {
+    "revision": "a9b8cadf27ea1931c180dcf2c6202ea6",
+    "url": "/MyPortfolio/static/media/Pokemon_App.a9b8cadf.jpg"
   },
   {
     "revision": "a3f8e9635d1a9b4ddac251dc7138f018",
