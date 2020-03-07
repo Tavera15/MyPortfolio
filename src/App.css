@@ -73,7 +73,6 @@ hr{
 
 
 .projects-section{
-  border: 1px solid red;
   padding: 2rem;
   opacity: .8;
 }
@@ -116,7 +115,7 @@ hr{
   border: 1px solid white;
 }
 
-#Unreal .card-body a{
+.card-body a{
   margin: 0 1rem;
 }
 
