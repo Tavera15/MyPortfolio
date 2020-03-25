@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7922fdb9757e8e1570805c68d22e880",
+    "revision": "af839a7d8b0344c297546a151a058db3",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "ee64dd5cf59725d17c55",
-    "url": "/MyPortfolio/static/css/2.22a7d4ef.chunk.css"
+    "revision": "4524e907eb0f180c26a8",
+    "url": "/MyPortfolio/static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "8659e01cc8d5f2e93e1a",
-    "url": "/MyPortfolio/static/css/main.cb4471c1.chunk.css"
+    "revision": "2be517437f1978c2438e",
+    "url": "/MyPortfolio/static/css/main.1afadf0b.chunk.css"
   },
   {
-    "revision": "ee64dd5cf59725d17c55",
-    "url": "/MyPortfolio/static/js/2.eefd4ad0.chunk.js"
+    "revision": "4524e907eb0f180c26a8",
+    "url": "/MyPortfolio/static/js/2.0872a173.chunk.js"
   },
   {
-    "revision": "8659e01cc8d5f2e93e1a",
-    "url": "/MyPortfolio/static/js/main.2aa17d71.chunk.js"
+    "revision": "cbca7ddb53d55b26d227edf91d985929",
+    "url": "/MyPortfolio/static/js/2.0872a173.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41ef2c5e8e68d7a2a057",
-    "url": "/MyPortfolio/static/js/runtime~main.ccce04bf.js"
+    "revision": "2be517437f1978c2438e",
+    "url": "/MyPortfolio/static/js/main.9eebcb97.chunk.js"
+  },
+  {
+    "revision": "7ff08a2e7dc0759e4226",
+    "url": "/MyPortfolio/static/js/runtime-main.a82ddb66.js"
   },
   {
     "revision": "a79da12105e4ef3f294469e08e5908c6",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "636381fc6226a0bc2947e05bcff0206e",
     "url": "/MyPortfolio/static/media/AM9.636381fc.jpg"
+  },
+  {
+    "revision": "6ca502f368ca9851aafa435197a6137c",
+    "url": "/MyPortfolio/static/media/FSW.6ca502f3.jpg"
   },
   {
     "revision": "64b919a4b18b6f9262f30ac1f7d46e00",
@@ -222,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "827ccf0c29e7b23fd1b5e4f204405213",
     "url": "/MyPortfolio/static/media/logo.827ccf0c.png"
+  },
+  {
+    "revision": "0b449426d323918ae5cacb87eb26e968",
+    "url": "/MyPortfolio/static/media/me.0b449426.jpg"
   },
   {
     "revision": "4f9be125acd7174d712b470f3a0f7874",
