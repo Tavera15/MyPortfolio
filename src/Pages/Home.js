@@ -22,7 +22,7 @@ function Home()
 					<div className="about-me row">
 						<ProjectCard 
 							name= "Graduate Game Dev"
-							desc="C++ | C# | Unreal Engine 4 | Unity"
+							desc="C++ | C# | Unreal Engine IV | Unity"
 							imageURL={require('../contents/LSC.png')}
 						/>
 						
