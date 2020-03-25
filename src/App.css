@@ -6,136 +6,202 @@
 .App {
   text-align: center;
 }
-
+ 
 hr{
-    background-color: lightblue;
+    background-color: red;
     height:1px;
     width:50%;
 }
 
-.section-container{
-  padding: 2rem 7rem 0;
+/* Heading */
+.heading-container{
+  background-color: #cccccc;
+  height: 40rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url('contents/First Level/prison1.jpg');
+}
+
+.heading-content{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);;
+  padding:  2rem;
+  font-family: 'ResidentEvil';
+
+}
+
+.heading-content h1{
   text-align: center;
-  font-family: 'ResidentEvil';
-  
+  color: red;
+  font-size: 17vh;
+  letter-spacing: .5rem;
 }
 
-.my-nav{
-  border-bottom: #CEB964 solid 1px;
-}
-
-.my-nav h1{
-  font-family: 'ResidentEvil';
-  font-size: 6rem;
+.heading-content p{
+  text-align: center;
   color: white;
-  text-align: center;
+  font-size: 7vh;
+  margin: 0;
+  letter-spacing: .5rem;
 }
 
-.navbar p{
-  margin: 0;
+.my-email{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-top: -10rem;
+  text-align: center;
+  font-size: 3vh;;
+}
+
+/*Top Bar*/
+
+.topBar-container{
+  background-color: rgb(27, 31, 31);
+  padding: 10px 70px
 }
 
 /*Home page*/
 
-.main-content{
-  padding: 0;
+.home-container{
+  padding: 4rem;
+  text-align: center;
+  font-family: 'ResidentEvil';
+  background-color: white;
+  background-position: top;
+  background-position: relative;
+  background-size: cover;
+  background-attachment: local;
+}
+
+.home-content{
   background-color: black;
-  opacity: .7;
-  color: white;
+  opacity: 1;
+  color: #CEB964;
   height: 100%;
-  border: 1px solid red;
   letter-spacing: .5rem;
 }
 
-.main-content h1{
+.home-content h1{
   font-size: 15rem;
 }
 
-.main-content h2{
+.home-content h2{
   font-size: 7rem;
-  padding-top: 4rem;
 }
 
-.main-content p{
+.home-content p{
   font-size: 4rem;
   color: #CEB964;
 }
 
 /*Projects*/
 
-.project h1{
+.project-page-title{
   color: yellow;
   font-size: 7rem;
   letter-spacing: 1rem;
   background-color: black;
-  opacity: .8;
+  opacity: 1;
+  text-align: center;
 }
 
+.project-page-section{
+  opacity: 1;
+  padding: 2rem 7rem ;
+  text-align: center;
+  font-family: 'ResidentEvil';
+}
 
-.projects-section{
+.page-projects{
   padding: 2rem;
-  opacity: .8;
+  opacity: 1;
+  background-color: black;
 }
 
 /*Cards*/
 
- .card{
+.card{
   background-color: lightblue;
   margin: .5rem 0;
   padding: 0;
- }
+}
 
- .card img{
+.card img{
   height: 20rem;
- }
+}
 
- .card-body{
+.card-body{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
   color: white;
   letter-spacing: .2rem;
   font-size: 4rem;
   border-top: 4px solid red;
- }
-
-/*Unreal Page*/
-
-#Unreal .projects-section{
-  opacity: 1;
-}
-
-.image-ctr{
-  margin: 0 -1rem;
-}
-
-.carousel img {
-  min-width: 100%;
-  height: 650px;
-  max-width: none;
-  border: 1px solid white;
 }
 
 .card-body a{
   margin: 0 1rem;
 }
 
+/*Unreal Page*/
+
+.carousel img {
+  min-width: 100%;
+  height: 650px;
+  border: 1px solid white;
+}
+
+.about-me{
+  background-color: beige;
+  padding: 2rem 2rem;
+  margin: 0;
+}
+
+.about-me h3{
+  font-size: 3rem;
+}
+
+.gratitude a{
+  width: 100%;
+  background-color: black;
+  font-size: 5rem;
+  color: #CEB964;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 @media (max-width: 1332px){
-  .section-container{
-    padding: 2rem 1rem;
+  .home-container{
+    padding: 2rem 2rem;
   }
 
-  .main-content h1{
+  .home-content h1{
     font-size: 6rem;
   }
 
-  .main-content h2{
+  .home-content h2{
     font-size: 4rem;
   }
 
-  .main-content p{
+  .home-content p{
     font-size: 3rem;
   }
 
+ .project-page-section{
+    padding: 2rem 1rem;
+  }
+
+  .avatar{
+    width: 100%; height: 60%;
+  }
 }
 
 @media(max-width: 700px){
@@ -143,15 +209,19 @@ hr{
     font-size: 4rem;
   }
 
+  .project-page-title{
+    font-size: 4rem;
+  }
+
   .carousel img{
-    height: 250px;
+    height: 350px;
   }
 
   .card img{
     height: 200px;
   }
 
-  .about-container{
-    margin: 0;
+  .gratitude a{
+    font-size: 2.5rem;
   }
 }

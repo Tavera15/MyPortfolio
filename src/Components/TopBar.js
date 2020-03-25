@@ -1,49 +1,32 @@
-import React, {Component} from 'react';
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+ 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-
-class TopBar extends Component {
-	shouldComponentUpdate(nextProps, nextState){
-		return false;
-	}
-
-	render() {
-		return(
-			<div className="my-nav">
-		      <h1>Joaquin Ramirez</h1>
-		      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-
-		        <p className="navbar-brand">My Portfolio</p>
-		        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-		          <span className="navbar-toggler-icon"></span>
-		        </button>
-		        <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-		          <ul className="navbar-nav">
-					<li className="nav-item">
-		              <a className="nav-link" href="https://github.com/Tavera15" target="_blank" rel="noopener noreferrer">Github</a>
-	                </li>
-		            <li className="nav-item dropdown">
-		              <Link to='/MyPortfolio' className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Projects</Link>
-		              <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-		                
-		                <Link to='/MyPortfolio/CPlusPlus' className='dropdown-item'>C++</Link>
-		                <Link to='/MyPortfolio/CSharp' className='dropdown-item'>C#</Link>
-		                <Link to='/MyPortfolio/Unreal' className="dropdown-item">Unreal Engine</Link>
-		                <Link to='/MyPortfolio/Unity' className='dropdown-item'>Unity</Link>
-						<Link to='/MyPortfolio/WebDevelopment' className="dropdown-item">Web Development</Link>
-
-		              </div>
-		            </li>
-		            <li className="nav-item active">
-		              <Link to="/MyPortfolio" className="nav-link">Home</Link>
-		            </li>
-		          </ul>
-
-		        </div>
-		      </nav>
-		    </div>
-		);
-	}
+function TopBar()
+{
+	return (
+		<Navbar collapseOnSelect expand="lg" className="topBar-container sticky-top" variant="dark">
+		  <Navbar.Brand href="/MyPortfolio">Home</Navbar.Brand>
+		  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+		  <Navbar.Collapse id="responsive-navbar-nav">
+		    <Nav className="mr-auto">
+		      <NavDropdown title="My Projects" id="collasible-nav-dropdown">
+		        <NavDropdown.Item href="/MyPortfolio/CPlusPlus">C++</NavDropdown.Item>
+		        <NavDropdown.Item href="/MyPortfolio/CSharp">C#</NavDropdown.Item>
+		        <NavDropdown.Item href="/MyPortfolio/Unreal">Unreal Engine IV</NavDropdown.Item>
+		        <NavDropdown.Item href="/MyPortfolio/Unity">Unity</NavDropdown.Item>
+		        <NavDropdown.Item href="/MyPortfolio/WebDevelopment">Web Development</NavDropdown.Item>
+		      </NavDropdown>
+		    </Nav>
+		    <Nav>
+		      <Nav.Link target="_blank" rel="noopener noreferrer" href="https://github.com/Tavera15"> <FontAwesomeIcon style={{color: 'white'}} icon={faGithub} size='2x' /> </Nav.Link>
+		      <Nav.Link target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joaquin-ramirez-5041901a2/"><FontAwesomeIcon style={{color: 'white'}} icon={faLinkedin} size='2x' /></Nav.Link> 
+		    </Nav>
+		  </Navbar.Collapse>
+		</Navbar>
+	)      
 }
 
 export default TopBar;

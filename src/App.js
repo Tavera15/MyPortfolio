@@ -1,20 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import TopBar from './Components/TopBar.js';
-import Home from './Components/Home.js';
-import UnrealPage from './Components/UEPage.js';
-import WebDevPage from './Components/WebDevPage.js';
-import Unity from './Components/UnityPage.js';
-import CSharpPage from './Components/C#Page.js';
-import CppPage from './Components/CppPage.js';
+import Home from './Pages/Home.js';
+import UnrealPage from './Pages/UEPage.js';
+import WebDevPage from './Pages/WebDevPage.js';
+import Unity from './Pages/UnityPage.js';
+import CSharpPage from './Pages/C#Page.js';
+import CppPage from './Pages/CppPage.js';
 import './App.css';
 
-
-class App extends Component{
-
-
-  render(){
-
+function App()
+{
     return (
       <Router>
         <div>
@@ -30,7 +26,7 @@ class App extends Component{
         </div>
       </Router>
     );
-  }
+  
 }
 
 export default App;
